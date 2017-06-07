@@ -1,0 +1,42 @@
+.home-header{
+  display: flex;
+  height: 48px;
+  align-items: center;/*垂直居中*/
+  color:#fff;
+  a{
+    color: #fff;
+  }
+  &:nth-child(1){
+    flex:1;
+    display: flex;
+  }
+  .city{
+    align-items: center;
+    justify-content:center;
+    font-size: 15px;
+    padding: 0 5px;
+
+  }
+  .search{
+    flex: 4;
+    background: #fff;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    i{
+      color: #666;
+      margin: 0 5px;
+    }
+    input{
+      border: none;
+      font-size: 16px;
+    }
+  }
+  .profile{
+    flex:0.5;
+    display: flex;
+
+    justify-content:center;
+  }
+}
