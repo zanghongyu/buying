@@ -19,196 +19,126 @@ export default class Slider extends Component{
             }
         };
         return (
-            <div>
+            <div className="slders">
             <ReactSwipe className="carousel" swipeOptions={opts}>
                 <div>
                     <ul>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                         <li>
                             <i className="iconfont icon-coupons"></i>
                             <span>美食</span>
                         </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>电影/演出</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>酒店住宿</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>休闲娱乐</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>外卖</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>火车票</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>ktv</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>周边游</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>丽人/美发</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
-                            </li>
-                        </Link>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <Link to="/search/jingdian">
-                            <li>
-                                <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
-                            </li>
-                        </Link>
-                        <Link to="/search/jingdian">
-                            <li>
-                                <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
-                            </li>
-                        </Link>
-                        <Link to="/search/jingdian">
-                            <li>
-                                <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
-                            </li>
-                        </Link>
-                        <Link to="/search/jingdian">
-                            <li>
-                                <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
-                            </li>
-                        </Link>
-                        <Link to="/search/jingdian">
-                            <li>
-                                <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
-                            </li>
-                        </Link>
-                        <Link to="/search/jingdian">
-                            <li>
-                                <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
-                            </li>
-                        </Link>
-                        <Link to="/search/jingdian">
-                            <li>
-                                <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
-                            </li>
-                        </Link>
-                        <Link to="/search/jingdian">
-                            <li>
-                                <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
-                            </li>
-                        </Link>
-                        <Link to="/search/jingdian">
-                            <li>
-                                <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
-                            </li>
-                        </Link>
-                        <Link to="/search/jingdian">
-                            <li>
-                                <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>旅游出行</span>
                             </li>
                         </Link>
                     </ul>
                 </div>
                 <div>
                     <ul>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>高端酒店</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>运动健身</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>生活服务</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>母婴亲子</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>结婚/摄影</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>景点</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>温泉</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>学习培训</span>
                             </li>
                         </Link>
-                        <Link to="/search/jingdian">
+                        <Link to="#">
                             <li>
                                 <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
-                            </li>
-                        </Link>
-                        <Link to="/search/jingdian">
-                            <li>
-                                <i className="iconfont icon-coupons"></i>
-                                <span>美食</span>
+                                <span>家装</span>
                             </li>
                         </Link>
                     </ul>
@@ -217,7 +147,6 @@ export default class Slider extends Component{
                 <ul className="dots">
                     <li className={this.state.index == 0?"active":""}></li>
                     <li className={this.state.index == 1?"active":""}></li>
-                    <li className={this.state.index == 2?"active":""}></li>
                 </ul>
             </div>
         )

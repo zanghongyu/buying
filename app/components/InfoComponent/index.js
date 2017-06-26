@@ -11,7 +11,7 @@ export default class InfoComponent extends Component {
                 <div className="info-list">
                     <img src={img} alt=""/>
                     <div>
-                        <h3>{title}</h3>
+                        <h4>{title}</h4>
                         <div className="info-star">
                             {/*star组件要接收一个点亮的星星数*/}
                             <Star count={star}/><span>￥{price}</span>

@@ -11,7 +11,7 @@ export default class Ad extends Component{
     render(){
         return (
             <div className="ad">
-                <h3>超值特惠</h3>
+                <h3></h3>
                 {this.state.data.length?
                     this.state.data.map((item,index)=>(
                     <a href={item.link} key={index}>

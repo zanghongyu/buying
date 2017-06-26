@@ -5,7 +5,7 @@ export default class ListComponent extends Component{
     render(){
         return (
             <div className="list-component">
-                <h3>附近美食</h3>
+                <h4>猜你喜欢</h4>
                 {this.props.data.map((item,index)=>(
                     <ListItem key={index} data={item}/>
                 ))}

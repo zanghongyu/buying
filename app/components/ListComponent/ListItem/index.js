@@ -10,7 +10,7 @@ export default class ListItem extends Component {
             <div className="list-item">
                 <img src={img} alt=""/>
                 <div className="list-item-content">
-                    <h4>{title}</h4>
+                    <h5>{title}</h5>
                     <p>{subTitle}</p>
                     <div>
                         <strong>￥{price}</strong>

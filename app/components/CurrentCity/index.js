@@ -5,7 +5,7 @@ export default class CurrentCity extends Component{
         return (
             <div className="current-city">
                 {this.props.cityName}
-                <hr/>
+
             </div>
         )
     }
